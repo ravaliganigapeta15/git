@@ -3,6 +3,8 @@ pipeline {
     stages{
         stage('git'){
           steps{
-              git checkout''
+              git checkout'https://github.com/ravaliganigapeta15/git.git'
             }
         }
+    }
+}
